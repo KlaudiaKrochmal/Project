@@ -1,0 +1,40 @@
+<!-- formularz rejestracji-->
+<link rel="stylesheet" type="text/css" href="zutify.css">
+<div class="form">
+
+    <form onsubmit="return przedWyslaniem()">
+
+
+        <h2>Zarejestruj się</h2>
+        <p>
+            <label for="firstName" class="floatLabel">Imię</label>
+
+            <input id="firstName" type="text" name="firstName">
+
+        </p>
+
+        <p><label for="lastName" class="floatLabel">Nazwisko</label>
+            <input id="lastName" type="text" name="lastName">
+
+        </p>
+
+        <p>
+            <label for="email" class="floatLabel">Email</label>
+            <input id="email" type="text" name="email">
+
+            <label class="Error" id="mailError"></label>
+
+        </p>
+
+        <p><label for="password" class="floatLabel">Hasło</label>
+            <input id="password" type="text" name="password">
+
+            <label class="Error" id="passwordError"></label>
+        </p>
+
+        <p> <label for="phoneNumber" class="floatLabel">Numer telefonu</label>
+            <input id="phoneNumber" type="text" name="phoneNumber">
+
+            <input type="submit" value="DALEJ">
+    </form>
+</div>
